@@ -59,18 +59,74 @@ body {
     padding: 2em;
     display: inline-block;
     font: normal normal bold 11px/15px Open Sans;
-    letter-spacing: 3.28px;
+    letter-spacing: 3px;
 }
 
 .nav__menu_text {
     text-decoration: none;
     color: var(--third-font-color);
     padding: 28px 18px 22px;
-    letter-spacing: 3.28px;
+    letter-spacing: 3px;
 }
 
 .nav__menu_text:hover {
     border-bottom: 4px solid #08A6E4;
-    padding-bottom: 20px;
+    padding-bottom: 19px;
     color: var(--main-font-color);
+}
+
+/*OPENING*/
+.opening {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+.opening__container{
+
+}
+.opening__title {
+    text-decoration: none;
+    font: normal normal normal 49px/57px Raleway;
+    color: var(--main-font-color);
+}
+
+.opening__text {
+    text-decoration: none;
+    font: normal normal normal 16px/22px Open Sans;
+    color: var(--main-font-color);
+
+}
+.opening h1{
+    margin-top: 50px;
+}
+.opening p{
+    margin: 20px 0 40px;
+}
+
+.opening__button {
+    top: 337px;
+    left: 593px;
+    width: 440px;
+    height: 67px;
+    background: var(--first-color) 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px var(--second-shadow-color);
+    border-radius: 40px;
+    font: normal normal bold 16px/22px Open Sans;
+    color: #FFFFFF;
+    border-style: none;
+    margin: 0 auto;
+}
+
+.opening__bg_image {
+    background-image: url("assets/Background.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 594px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
