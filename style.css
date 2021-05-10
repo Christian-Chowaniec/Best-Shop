@@ -75,7 +75,7 @@ body {
     color: var(--main-font-color);
 }
 
-/*OPENING*/
+/*-------------------------------------------------------OPENING*/
 .opening {
     display: flex;
     justify-content: center;
@@ -84,9 +84,11 @@ body {
 
 
 }
-.opening__container{
+
+.opening__container {
 
 }
+
 .opening__title {
     text-decoration: none;
     font: normal normal normal 49px/57px Raleway;
@@ -99,10 +101,12 @@ body {
     color: var(--main-font-color);
 
 }
-.opening h1{
+
+.opening h1 {
     margin-top: 50px;
 }
-.opening p{
+
+.opening p {
     margin: 20px 0 40px;
 }
 
@@ -130,3 +134,86 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*-------------------------------------------------------STATISTICS*/
+.statistic {
+
+}
+
+.statistic__title {
+    font: normal normal normal 36px/42px Raleway;
+    color: var(--main-font-color);
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 80px;
+}
+
+.statistic_container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.statistic_column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.statistic_circle_one {
+    margin: 0 auto;
+    background-color: var(--second-color);
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.statistic_circle_two {
+    margin: 0 auto;
+    background-color: var(--first-color);
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.statistic_circle_three {
+    margin: 0 auto;
+    background-color: var(--third-color);
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.statistic_icon {
+    margin-left: 45px;
+
+}
+
+.statistic_number {
+    color: var(--main-font-color);
+    letter-spacing: 6px;
+    font: normal normal 800 20px/24px Raleway;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.statistic_text {
+    color: var(--third-font-color);
+    font: normal normal normal 16px/19px Raleway;
+    text-align: center;
+    width: 130px;
+    margin: 0 auto;
+
+}
+
+/*-------------------------------------------------------BENEFITS*/
