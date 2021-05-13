@@ -33,19 +33,16 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1352px;
-
 }
 
 .nav .container {
     display: flex;
     justify-content: space-between;
-
 }
 
 .nav {
     box-shadow: 0 3px 6px var(--first-shadow-color);
     text-decoration: none;
-
 }
 
 .nav__logo {
@@ -81,8 +78,6 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
-
 }
 
 .opening__container {
@@ -152,13 +147,11 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
-
 }
 
 .statistic_column {
     display: flex;
     flex-direction: column;
-
 }
 
 .statistic_circle_one {
@@ -169,7 +162,6 @@ body {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-
 }
 
 .statistic_circle_two {
@@ -180,7 +172,6 @@ body {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-
 }
 
 .statistic_circle_three {
@@ -191,12 +182,10 @@ body {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-
 }
 
 .statistic_icon {
     margin-left: 45px;
-
 }
 
 .statistic_number {
@@ -205,7 +194,6 @@ body {
     font: normal normal 800 20px/24px Raleway;
     text-align: center;
     margin: 20px;
-
 }
 
 .statistic_text {
@@ -214,7 +202,6 @@ body {
     text-align: center;
     width: 130px;
     margin: 0 auto;
-
 }
 
 /*-------------------------------------------------------BENEFITS*/
@@ -222,7 +209,7 @@ body {
 
 .benefits {
     background-color: var(--second-bg-color);
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     padding-top: 200px;
 }
 
@@ -256,7 +243,6 @@ body {
     height: 66px;
     font: normal normal normal 16px/22px Open Sans;
     margin-top: 20px;
-
 }
 
 .benefits_red_line {
@@ -321,7 +307,6 @@ body {
     width: 320px;
     height: 320px;
     border-radius: 50%;
-
 }
 
 .benefits_phone_icon {
@@ -376,15 +361,12 @@ body {
 .benefits_third_tabel_left {
     background-color: var(--main-bg-color);
     border: 1px solid var(--first-border-color);
-
     height: 370px;
     width: 830px;
     padding-left: 100px;
     padding-top: 70px;
     padding-right: 250px;
-
     justify-content: flex-end;
-
 }
 
 .benefits_third_tabel_right {
@@ -392,23 +374,18 @@ body {
     justify-content: flex-end;
     /*margin-left: 260px;*/
     margin-left: 110px;
-
-
 }
 
 /*-------------------------------------------------------PRICING*/
 .pricing {
     background-color: var(--main-bg-color);
-
 }
 
 .pricing_main_title {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
     font: normal normal normal 36px/42px Raleway;
     margin-bottom: 100px;
-
 }
 
 .pricing-container {
@@ -416,7 +393,6 @@ body {
     justify-content: space-around;
     margin: 0 auto;
     max-width: 1352px;
-
 }
 
 /*-----------------------BASIC*/
@@ -433,7 +409,6 @@ body {
     justify-content: center;
     font: normal normal bold 20px/1px Raleway;
     margin-top: 50px;
-
 }
 
 .pricing_number {
@@ -450,8 +425,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-
-
 }
 
 .pricing_info_line {
@@ -487,7 +460,6 @@ body {
     font: normal normal bold 12px/1px Raleway;
     display: flex;
     justify-content: center;
-
 }
 
 .pricing_number_pro {
@@ -516,7 +488,6 @@ body {
     border: 1px solid var(--third-color);
     border-radius: 18px;
     margin-top: 20px;
-
 }
 
 .pricing_number_prem {
@@ -544,3 +515,165 @@ body {
 }
 
 /*-------------------------------------------------------CONTACT*/
+.contact {
+
+    background-color: var(--main-bg-color);
+    margin-top: 200px;
+}
+
+.contact_container {
+    margin: 0 auto;
+    max-width: 1352px;
+    display: flex;
+}
+
+.contact_left_box {
+    margin-left: 200px;
+    width: 30%;
+    margin-right: 250px;
+}
+
+.contact_title {
+    font: normal normal normal 49px/57px Raleway;
+}
+
+.contact_text {
+    font: normal normal normal 16px/22px Open Sans;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.contact_item {
+    display: flex;
+    justify-content: flex-start;
+    font: normal normal 600 16px/22px Open Sans;
+    color: var(--third-font-color);
+}
+
+.contact_item_mail {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.contact_item_phone {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact_right_box {
+    width: 40%;
+    margin-right: 100px;
+}
+
+.contact_label_title {
+    font: normal normal bold 11px/15px Open Sans;
+    color: var(--first-color);
+    letter-spacing: 3px;
+}
+
+.container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font: normal normal normal 12px/17px Open Sans;
+    color: var(--second-font-color);
+}
+
+.send-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid var(--contact-line-color);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 226px;
+    height: 57px;
+    background-color: var(--first-color);
+    color: var(--main-bg-color);
+    box-shadow: 0 3px 6px var(--first-color);
+    border-radius: 40px;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 100px;
+    font: normal normal bold 13px/18px Open Sans;
+}
+
+
+.checkbox-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+}
+
+.checkbox-div input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.custom-checkbox {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.custom-checkbox .label {
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+.custom-checkbox .checkmark {
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--contact-line-color);
+    display: inline-block;
+    border-radius: 4px;
+    background: #FFF url(assets/Checkmark.svg) center/1400% no-repeat;
+    transition: background-size 0.2s ease;
+}
+
+.custom-checkbox input:checked + .checkmark {
+    background-size: 60%;
+    transition: background-size 0.25s cubic-bezier(0.7, 0, 0.18, 1.24);
+}
+
+.custom-checkbox input {
+    display: none;
+}
+/*-------------------------------------------------------FOOTER*/
